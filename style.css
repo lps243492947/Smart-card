@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    background-color: #f5fafe;
+}
+
+.page {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.page-header {
+    width: 100%;
+    background-color: #fff;
+    border: 0;
+    border-radius: 5px;
+}
+
+.page-header__pic {
+    width: 100%;
+    height: 10rem;
+    background: url(./image.png) no-repeat;
+    background-size: cover;
+}
+
+.page-header__userinfo {
+    padding: 10px 10px 13px 10px;
+    position: relative;
+}
+
+.name {
+    line-height: 1;
+    font-size: .75rem;
+}
+
+.sex {
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    background: url(./nv.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 8px;
+}
+
+.labels {
+    margin-top: 10px;
+}
+
+.label {
+    padding: 5px 10px;
+    font-size: .5rem;
+    color: #fff;
+}
+
+.blue {
+    border: 0px;
+    border-radius: 2px;
+    background-color: rgb(18, 107, 241);
+}
+
+.green {
+    border: 0px;
+    border-radius: 2px;
+    background-color: rgb(18, 241, 66);
+}
+
+.orange {
+    border: 0px;
+    border-radius: 5px;
+    background-color: orange;
+}
+
+.page-header__msg {
+    margin-top: 10px;
+}
+
+.item {
+    width: 130px;
+    font-size: .5rem;
+    color: #999999;
+    display: inline-block;
+    position: relative;
+    padding-left: .6rem;
+}
+
+.city::before {
+    content: "";
+    width: 10px;
+    height: 11px;
+    background: url(./dingwei.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.job::before {
+    content: "";
+    width: 10px;
+    height: 11px;
+    background: url(./zhiye.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.like::before {
+    content: "";
+    width: 10px;
+    height: 11px;
+    background: url(./aixin.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.wechat::before {
+    content: "";
+    width: 10px;
+    height: 11px;
+    background: url(./weixin.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.phone::before {
+    content: "";
+    width: 10px;
+    height: 11px;
+    background: url(./tel.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.ewm {
+    width: 34px;
+    height: 33px;
+    position: absolute;
+    top: 40px;
+    right: 11.5px;
+}
+
+.ewm img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.envelope {
+    width: 55px;
+    height: 50px;
+    position: absolute;
+    top: 120px;
+    right: 0;
+}
+.envelope img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.page-bd {
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.weui-cell {
+    font-size: .6rem;
+    color: #333333;
+    padding: 15px 20px 15px 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 8px;
+}
+.t {
+    width: 35px;
+    height: 35px;
+    border: 0px;
+    border-radius: 50%;
+}
+.weui-cell__bd {
+    padding-left: 25px;
+    flex: 1;
+}
+.weui-cell__ft {
+    color: #999999;
+}
+.page-bd2 {
+    width: 100%;
+    margin-top: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.feed-item {
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 8px;
+}
+.feed-content {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.feed-content h3 {
+    font-size: .8rem;
+    font-weight: 500;
+    color: black;
+    line-height: 2;
+}
+.sq1::before {
+    content: "";
+    width: 2px;
+    height: 20px;
+    background-color: #48a6fd;
+    position: absolute;
+    left: 1px;
+    top: 8px;
+}
+.feed-content p {
+    color: #333333;
+    font-size: .6rem;
+    line-height: 1.5;
+    overflow: hidden;
+}
+
+.sq2::before {
+    content: "";
+    width: 2px;
+    height: 20px;
+    background-color: #1dca42;
+    position: absolute;
+    left: 1px;
+    top: 8px;
+}
+.page-bd3 {
+    width: 100%;
+    margin-top: 15px;
+    box-sizing: border-box;
+}
+.feed-item__gg {
+    padding: 0 90px;
+    display: flex;
+    border: 0px;
+    border-radius: 8px;
+    background: url(./bj.png) no-repeat;
+    background-size: 100%;
+}
+.feed-content__gg p {
+    font-size: .8rem;
+    color: #fff;
+    overflow: hidden;
+    line-height: 2;
+}
+.feed-content__gg h3 {
+    font-weight: 500;
+    color: #fff;
+    display:block;
+    word-break:keep-all;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    position: relative;
+    right: 25px;
+    padding-bottom: 10px;
+}
+.page-bd4 {
+    width: 100%;
+    margin-top: 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+.feed-item__pp {
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 8px;
+}
+.sq3::before {
+        content: "";
+        width: 2px;
+        height: 20px;
+        background-color: orange;
+        position: absolute;
+        left: 1px;
+        top: 8px;
+}
+.feed-content__pp h3 {
+    font-size: .8rem;
+    font-weight: 500;
+    color: black;
+    padding-top: 10px;
+}
+.feed-content__pp img {
+    width: 100px;
+    height: 100px;
+    padding-top: 15px;
+}
+.page-bd5 {
+    width: 100%;
+    margin-top: 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+.weui-flex__item {
+    width: 140px;
+    height: 48px;
+    text-align: center;
+    border: 0px;
+    line-height: 48px;
+    border-radius: 24px;
+}
+.placeholder {
+    font-size: .9rem;
+    color: #000;
+    background-color: #fff;
+    background-size: 100%;
+}
+.placeholder::before {
+    content: "";
+    width: 1rem;
+    height: 1rem;
+    background: url(./bianji.png) no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 45px;
+    top: 15px;
+}
+.placeholder1 {
+    font-size: .9rem;
+    color: #fff;
+    background-color: #48a6fd;
+}
