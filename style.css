@@ -34,6 +34,8 @@ html,body {
     height: 10rem;
     background: url(./image.png) no-repeat;
     background-size: cover;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
 
 .page-header__userinfo {
